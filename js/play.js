@@ -5,7 +5,7 @@ window.onload = function() {
 };
 
 function reproduirAudio() {
-    let audio = document.getElementById('audioAterratge');
+    var audio = document.getElementById('audioAterratge');
 
     document.getElementById('nau').classList.add("animacio");
     console.log("Ok");
