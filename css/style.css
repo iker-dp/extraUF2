@@ -9,11 +9,14 @@
     width: 100%;
 }
 
-#contenidor img.nau {
+.nau {
     position: absolute;
     width: 20%;
-    top: 0%;
+    top: -300px;
     left: 40%;
+}
+
+.animacio {
     animation: aterrar 10s infinite linear;
 }
 
