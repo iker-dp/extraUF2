@@ -1,0 +1,14 @@
+#contenidor {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+}
+
+.fons {
+    width: 80%;
+}
+
+.nau {
+    position: absolute;
+    width: 120px;
+}
