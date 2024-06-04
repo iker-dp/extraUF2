@@ -1,14 +1,27 @@
 #contenidor {
     position: relative;
     overflow: hidden;
-    width: 80%;
+    margin: 1%;
+    width: 98%;
 }
 
 .fons {
-    width: 80%;
+    width: 100%;
 }
 
-.nau {
+#contenidor img.nau {
     position: absolute;
-    width: 120px;
+    width: 20%;
+    top: 0%;
+    left: 40%;
+    animation: aterrar 10s infinite linear;
+}
+
+@keyframes aterrar {
+    0% {
+        top: -25%;
+    }
+    50%, 100% {
+        top: 60%;
+    }
 }
